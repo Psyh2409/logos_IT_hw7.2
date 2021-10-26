@@ -1,0 +1,141 @@
+@font-face{
+    font-family: AkzidenzGrotesk;
+    src: url("/fonts/FontsFree-Net-Akzidenz-grotesk-black.ttf");
+}
+@font-face{
+    font-family: Open Sans;
+    src: url("/fonts/FontsFree-Net-OpenSans-Regular-1.ttf");
+}
+.bd{
+    background: url("/images/bg.jpg") no-repeat center top;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+.mn{
+    width: 40vw;
+    height: 100vh;
+    margin-top: -.5em;
+    margin-left: -1em;
+    font-family: Open Sans;
+}
+.hdr{
+    margin: 5%;
+    width: auto;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h1{
+    font-family: AkzidenzGrotesk;
+    color: #00264d;
+    font-size: 8.5vh;
+    text-shadow: 1px 1px 3px white;
+} 
+.buttons{
+    width: auto;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 1ex;    
+}
+.buttons button{
+    width: 45%;
+    height: 60%;
+    margin-top: 5%;
+}
+.fb{
+    background: linear-gradient(#0d76be, #0d63ab);    
+}
+.tbl{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 18%;
+}
+.text{
+    color: aliceblue;
+}
+.fb .tbl .logo{
+    border-right: 1px solid #03407c;
+    padding-right: 1vw;
+    /* background: url("/images/fb-icon.png") no-repeat #ebebeb left; */
+}
+.tw{
+    background: linear-gradient(#57d5ff, #17ade0);
+}
+.tw .tbl .logo{
+    border-right: 1px solid #0f8a8a;
+    padding-right: 1vw;
+}
+.-or-{
+    width: auto;
+    height: 4vw;
+    text-align: center;
+}
+.or{
+    background: #fdfdfd;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.or p{
+    margin-top: 20%;
+}
+.-or- .line{
+    text-decoration: .3ex line-through black;
+    text-decoration-color: #fdfdfd;
+    color: rgba(0, 0, 0, 0);
+    margin: -.2em;
+}
+.scfrm{
+    width: auto;
+    height: 50vh;
+}
+.scfrm .inp{
+    width: 92%;
+    height: 8vh;
+    margin: 3%;
+}
+.scfrm .sbm{
+    background: #0d63ab;
+    margin-left: 4%;
+    margin-top: 6%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+.chbfrg{
+    color: #f0f0f0;
+    font-size: small;
+    margin-top: 6%;
+}
+.rm{
+    margin-left: 1.5vw;
+}
+.frg{
+    margin-left: 12.5vw;
+}
+.ftr{
+    text-align: center;
+    font-size: small;
+}
+.ftr .nam{
+    color: rgb(156, 156, 156);
+}
+.ftr .sun{
+    color: #0d63ab;
+}
+.tw, .fb, .inp{
+    border-radius: 5px;
+}
