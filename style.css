@@ -124,9 +124,9 @@
     border-left: 2px ridge rgb(184, 184, 184);
 }
 .icon img{
-    width: 80%;
-    height: 80%;
-    margin: 10%;
+    width: 50%;
+    height: 50%;
+    margin: 22%;
 }
 .icon img:last-child{
     display: none;
