@@ -107,6 +107,38 @@
     height: 8vh;
     margin: 3%;
 }
+.iconUn{
+    width: 7.5vw;
+    height: 8.5vh;
+    position: absolute;
+    top: 44.2vh;
+    left: 59.5vw;
+    border-left: 2px ridge rgb(184, 184, 184);
+}
+.iconPw{
+    width: 7.5vw;
+    height: 8.5vh;
+    position: absolute;
+    top: 59.6vh;
+    left: 59.5vw;
+    border-left: 2px ridge rgb(184, 184, 184);
+}
+.icon img{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+.icon img:last-child{
+    display: none;
+}
+.icon:hover img:first-child{
+    display: none;
+}
+.icon:hover img:last-child{
+    display: block;
+}
+
+
 .scfrm .sbm{
     background: #0d63ab;
     margin-left: 4%;
